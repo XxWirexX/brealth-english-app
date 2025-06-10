@@ -1,0 +1,351 @@
+/* Styles pour les sections ajoutées */
+
+/* Styles de base existants */
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.section {
+    padding: 80px 10%;
+    background-color: #ffffff;
+}
+
+.section.alt {
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.text {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.list {
+    list-style: disc;
+    padding-left: 20px;
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+.button {
+    margin-top: 30px;
+    background-color: var(--primary);
+    color: #2b2b2b;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+/* Nouveaux styles pour les sections */
+
+/* Grille pour les actions */
+.actionGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.actionCard {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.actionCard:hover {
+    transform: translateY(-5px);
+}
+
+.actionCard h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.actionCard p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Témoignages */
+.testimonialGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.testimonial {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.testimonial p {
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.testimonial span {
+    display: block;
+    text-align: right;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Boutons de don */
+.donationButtons {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.button.secondary {
+    background-color: transparent;
+    border: 2px solid var(--primary);
+    color: #333;
+}
+
+/* Contact form */
+.contactInfo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.contactItem h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.contactForm {
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.formRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+.formGroup input,
+.formGroup textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+    border-color: var(--primary);
+    outline: none;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 60px 10% 30px;
+}
+
+.footerContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.footerLogo {
+    flex: 0 0 250px;
+    margin-bottom: 30px;
+}
+
+.footerLogoImg {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.footerLogo h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.footerLogo p {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.footerLinks {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+.footerColumn {
+    min-width: 150px;
+    margin-bottom: 30px;
+}
+
+.footerColumn h4 {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.footerColumn h4:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 30px;
+    height: 2px;
+    background-color: var(--primary);
+}
+
+.footerColumn ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footerColumn ul li {
+    margin-bottom: 10px;
+}
+
+.footerColumn ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footerColumn ul li a:hover {
+    color: var(--primary);
+}
+
+.socialLinks {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.socialLinks a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.socialLinks a:hover {
+    background-color: var(--primary);
+    color: #222;
+    transform: translateY(-3px);
+}
+
+.footerBottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    border-top: 1px solid #333;
+    font-size: 0.9rem;
+}
+
+.footerBottomLinks {
+    display: flex;
+    gap: 20px;
+}
+
+.footerBottomLinks a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footerBottomLinks a:hover {
+    color: var(--primary);
+}
+
+/* Media queries pour responsive */
+@media (max-width: 768px) {
+    .formRow {
+        grid-template-columns: 1fr;
+    }
+
+    .footerContent {
+        flex-direction: column;
+    }
+
+    .footerLinks {
+        justify-content: flex-start;
+        margin-top: 30px;
+    }
+
+    .footerBottom {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .footerBottomLinks {
+        justify-content: center;
+    }
+}

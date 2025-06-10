@@ -1,0 +1,110 @@
+{
+  "header": {
+    "mission": "Notre mission",
+    "actions": "Nos actions",
+    "help": "Nous aider",
+    "contact": "Contact",
+    "donate": "Faire un don"
+  },
+  "hero": {
+    "title1": "La santé mentale est un droit. Partout.",
+    "text1": "Depuis plus de 20 ans, nous accompagnons celles et ceux qui n’ont pas accès aux soins psychiques.",
+    "title2": "Des soins inaccessibles pour des millions de personnes.",
+    "text2": "Le coût, la distance ou la stigmatisation rendent les soins mentaux inaccessibles. Nous intervenons là où personne d’autre ne va.",
+    "title3": "Nous sommes là, avec et pour elles.",
+    "text3": "Nos psychologues s’installent en urgence ou à long terme pour créer un espace de soin humain, confidentiel et gratuit.",
+    "donate": "Faire un don",
+    "discover": "Découvrir nos actions"
+  },
+
+  "footer": {
+    "about": "À propos",
+    "our_mission": "Notre mission",
+    "our_actions": "Nos actions",
+    "our_team": "Notre équipe",
+    "annual_reports": "Rapports annuels",
+    "support_us": "Nous soutenir",
+    "become_volunteer": "Devenir bénévole",
+    "partnerships": "Partenariats",
+    "legacy": "Legs et donations",
+    "follow_us": "Suivez-nous",
+    "privacy_policy": "Politique de confidentialité",
+    "legal_notice": "Mentions légales",
+    "accessibility": "Accessibilité",
+    "rights": "Tous droits réservés.",
+    "donate": "Faire un don"
+  },
+  "main": {
+    "mission": {
+      "title": "Notre Mission",
+      "p1": "Chez Brealth, notre mission est de rendre accessible les soins de santé mentale à tous, partout dans le monde. Nous croyons fermement que la santé mentale est un droit fondamental, indépendamment de la situation géographique, économique ou sociale.",
+      "p2": "Depuis plus de 20 ans, nos équipes travaillent sans relâche pour apporter un soutien psychologique aux populations vulnérables et marginalisées. Nous intervenons dans les zones de conflit, les camps de réfugiés, les régions isolées et les quartiers défavorisés où l'accès aux soins mentaux est limité ou inexistant.",
+      "cta": "En savoir plus sur notre approche"
+    },
+    "actions": {
+      "title": "Nos Actions",
+      "intro": "Notre travail s'articule autour de trois axes principaux pour garantir un impact durable et significatif :",
+      "card1": {
+        "title": "Intervention d'urgence",
+        "text": "Déploiement rapide de psychologues dans les zones touchées par des catastrophes naturelles, des conflits ou des crises humanitaires pour offrir un soutien immédiat."
+      },
+      "card2": {
+        "title": "Programmes durables",
+        "text": "Mise en place de centres de soins permanents et formation de professionnels locaux pour assurer la continuité des services de santé mentale."
+      },
+      "card3": {
+        "title": "Sensibilisation",
+        "text": "Campagnes d'information et d'éducation pour lutter contre la stigmatisation liée aux troubles mentaux et promouvoir l'importance du bien-être psychologique."
+      },
+      "stats": "En 2024, nos équipes sont présentes dans 27 pays à travers le monde et ont accompagné plus de 50 000 personnes vers un mieux-être psychologique.",
+      "cta": "Découvrir nos projets"
+    },
+    "testimonials": {
+      "title": "Témoignages",
+      "t1": {
+        "text": "Après le tremblement de terre, j'étais complètement perdue. Les psychologues de Brealth m'ont aidée à retrouver un sentiment de sécurité et à gérer mon traumatisme. Leur présence a été déterminante dans ma reconstruction.",
+        "author": "- Maria, Népal"
+      },
+      "t2": {
+        "text": "Le centre Brealth dans notre camp de réfugiés est un havre de paix où mes enfants et moi avons pu parler de notre vécu. Grâce à leur soutien, nous avons retrouvé l'espoir malgré notre situation difficile.",
+        "author": "- Ahmed, Liban"
+      },
+      "t3": {
+        "text": "En tant que psychologue formée par Brealth, j'ai maintenant les compétences nécessaires pour aider ma propre communauté. Ce transfert de connaissances est inestimable pour notre région isolée.",
+        "author": "- Fatima, Mali"
+      }
+    },
+    "help": {
+      "title": "Nous Aider",
+      "intro": "Votre soutien est essentiel pour nous permettre de poursuivre et d'étendre notre action. Plusieurs façons de contribuer à notre mission s'offrent à vous :",
+      "item1": "Faire un don ponctuel ou régulier",
+      "item2": "Devenir bénévole ou proposer vos services professionnels",
+      "item3": "Participer à nos événements de sensibilisation",
+      "item4": "Relayer nos campagnes sur les réseaux sociaux",
+      "item5": "Organiser une collecte de fonds au sein de votre entreprise ou communauté",
+      "conclusion": "Chaque contribution, quelle que soit sa nature, fait une réelle différence dans la vie des personnes que nous accompagnons.",
+      "donate": "Faire un don",
+      "volunteer": "Devenir bénévole"
+    },
+    "contact": {
+      "title": "Contact",
+      "intro": "Vous avez des questions ou souhaitez en savoir plus sur nos actions ? N'hésitez pas à nous contacter. Notre équipe se fera un plaisir de vous répondre.",
+      "headquarters": "Siège social",
+      "address": "25 Rue de la Paix\n75002 Paris, France",
+      "phoneTitle": "Téléphone",
+      "phone": "+33 (0)1 45 67 89 10",
+      "emailTitle": "Email",
+      "email": "contact@brealth.org",
+      "form": {
+        "name": "Nom",
+        "email": "Email",
+        "subject": "Sujet",
+        "message": "Message",
+        "submit": "Envoyer"
+      }
+    },
+    "footer": {
+      "slogan": "La santé mentale est un droit. Partout."
+    }
+  }
+}
