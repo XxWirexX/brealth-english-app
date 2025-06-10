@@ -1,0 +1,217 @@
+.page {
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--deep);
+  background-color: #fefefe;
+}
+
+/* Citation Impact */
+.impactQuote {
+  background-color: #2b2b2b;
+  color: var(--text-color);
+  padding: 6rem 2rem 4rem;
+  text-align: center;
+}
+
+.quote {
+  font-size: 2rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.author {
+  display: block;
+  font-size: 1rem;
+  color: #fdbbc3;
+  font-weight: bold;
+}
+
+.intro {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #eaeaea;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Timeline */
+.timelineSection {
+  padding: 4rem 2rem;
+  background: #fafafa;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: var(--deep);
+}
+
+.timeline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.timelineItem {
+  background: #fff;
+  border-left: 4px solid var(--primary);
+  padding: 1rem 1.5rem;
+  max-width: 220px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.timelineItem span {
+  font-weight: bold;
+  color: var(--primary);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Approach / 3 piliers */
+.approachSection {
+  padding: 4rem 2rem;
+  background-color: #f0f4ff;
+  text-align: center;
+}
+
+.approachGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.approachCard {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.approachCard:hover {
+  transform: translateY(-5px);
+}
+
+.approachCard h3 {
+  color: var(--primary);
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.approachCard p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.approachCard button {
+  margin-top: 1rem;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.approachCard button:hover {
+  background-color: #ffa8b4;
+}
+
+/* Testimony */
+.testimonySection {
+  background: url('/img/founder-blur.jpg') center/cover no-repeat;
+  color: white;
+  padding: 6rem 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.testimonySection::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(43, 43, 43, 0.6);
+  z-index: 0;
+}
+
+.testimonyContent {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.testimonyText {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.testimonyAuthor {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.teamSection {
+  background-color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.teamIntro {
+  max-width: 600px;
+  margin: 0 auto 2.5rem;
+  font-size: 1.1rem;
+  color: #4a5568;
+}
+
+.teamGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.teamCard {
+  background: #fdfdfd;
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.teamCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.teamPhoto {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  border: 4px solid var(--primary);
+}
+
+.teamCard h3 {
+  font-size: 1.2rem;
+  color: var(--deep);
+  margin-bottom: 0.5rem;
+}
+
+.teamCard p {
+  font-size: 0.95rem;
+  color: #666;
+}

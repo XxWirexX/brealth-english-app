@@ -1,0 +1,83 @@
+.page {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--deep);
+}
+
+.intro {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 3rem;
+  padding-top: 3rem; /* ➕ espace avec le header */
+}
+
+.intro h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2b2b2b; /* Plus lisible */
+  font-weight: 700;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  color: #4a5568;
+}
+
+/* Grille des projets */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background: #fff;
+  border-left: 4px solid var(--primary);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease;
+  min-height: 260px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.flag {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card h3 {
+  font-size: 1.25rem;
+  color: var(--deep);
+  margin-bottom: 0.25rem;
+}
+
+.type {
+  display: inline-block;
+  font-size: 0.85rem;
+  background-color: var(--primary);
+  color: #2b2b2b; /* ➕ sombre pour contraster */
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.year {
+  display: block;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #4a5568;
+}

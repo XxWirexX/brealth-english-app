@@ -5,27 +5,42 @@ import { useEffect, useState } from 'react';
 import useTranslation from '../lib/useTranslation';
 import LanguageSwitcher from './LanguageSwitcher';
 
-export default function Header() {
+export default function Header({ scrollEffect = false }) {
   const [scrolled, setScrolled] = useState(false);
   const { t } = useTranslation();
 
   useEffect(() => {
-    const handleScroll = () => {
-      const scrolled = window.scrollY;
-      const viewportHeight = window.innerHeight * 0.85;
+  if (!scrollEffect) {
+    // Enlève le style scroll si actif
+    document.documentElement.style.setProperty('--text-color', '#2b2b2b');
+    setScrolled(true);
+    return;
+  }
 
-      if (scrolled > viewportHeight) {
-        document.documentElement.style.setProperty('--text-color', '#2b2b2b');
-        setScrolled(true);
-      } else {
-        document.documentElement.style.setProperty('--text-color', '#fff');
-        setScrolled(false);
-      }
-    };
+  const handleScroll = () => {
+    const scrolledY = window.scrollY;
+    const viewportHeight = window.innerHeight * 0.85;
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+    if (scrolledY > viewportHeight) {
+      document.documentElement.style.setProperty('--text-color', '#2b2b2b');
+      setScrolled(true);
+    } else {
+      document.documentElement.style.setProperty('--text-color', '#fff');
+      setScrolled(false);
+    }
+  };
+
+  window.addEventListener('scroll', handleScroll);
+  return () => window.removeEventListener('scroll', handleScroll);
+}, [scrollEffect]);
+
+
+  const navItems = [
+    "home",
+    "mission",
+    "projects",
+    "contact"
+  ]
 
   return (
     <header className={`${styles.header} ${scrolled ? styles.active : ''}`}>
@@ -35,7 +50,7 @@ export default function Header() {
 
       <nav className={styles.navbar}>
         <ul className={styles['navbar-nav']}>
-          <li className={styles['nav-item']}>
+          {/* <li className={styles['nav-item']}>
             <a href="#mission" className={styles['nav-link']}>
               {t('header.mission')}
             </a>
@@ -54,12 +69,21 @@ export default function Header() {
             <a href="#contact" className={styles['nav-link']}>
               {t('header.contact')}
             </a>
-          </li>
+          </li> */}
+          {
+            navItems.map(item => (
+              <li className={styles['nav-item']}>
+              <a href={item == "home" ? "/" : item} className={styles['nav-link']}>
+                {t('header.' + item)}
+              </a>
+            </li>
+            ))
+          }
         </ul>
       </nav>
 
       <div className={styles.rightSide}>
-        <button className={styles['donation-btn']}>{t('header.donate')}</button>
+        <a href="donation" className={styles['donation-btn']}>{t('header.donate')}</a>
         <LanguageSwitcher />
       </div>
     </header>

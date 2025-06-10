@@ -1,8 +1,8 @@
 {
   "header": {
+    "home": "Home",
     "mission": "Our mission",
-    "actions": "Our actions",
-    "help": "Help us",
+    "projects": "Projects",
     "contact": "Contact",
     "donate": "Donate"
   },
