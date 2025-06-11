@@ -7,17 +7,6 @@
       "contact": "Contact",
       "donate": "Faire un don"
     },
-    "hero": {
-      "title1": "La santé mentale est un droit. Partout.",
-      "text1": "Depuis plus de 20 ans, nous accompagnons celles et ceux qui n’ont pas accès aux soins psychiques.",
-      "title2": "Des soins inaccessibles pour des millions de personnes.",
-      "text2": "Le coût, la distance ou la stigmatisation rendent les soins mentaux inaccessibles. Nous intervenons là où personne d’autre ne va.",
-      "title3": "Nous sommes là, avec et pour elles.",
-      "text3": "Nos psychologues s’installent en urgence ou à long terme pour créer un espace de soin humain, confidentiel et gratuit.",
-      "donate": "Faire un don",
-      "discover": "Découvrir nos actions"
-    },
-
     "footer": {
       "about": "À propos",
       "home": "Accueil",
@@ -42,6 +31,16 @@
     }
   },
   "home": {
+    "hero": {
+      "title1": "La santé mentale est un droit. Partout.",
+      "text1": "Depuis plus de 20 ans, nous accompagnons celles et ceux qui n’ont pas accès aux soins psychiques.",
+      "title2": "Des soins inaccessibles pour des millions de personnes.",
+      "text2": "Le coût, la distance ou la stigmatisation rendent les soins mentaux inaccessibles. Nous intervenons là où personne d’autre ne va.",
+      "title3": "Nous sommes là, avec et pour elles.",
+      "text3": "Nos psychologues s’installent en urgence ou à long terme pour créer un espace de soin humain, confidentiel et gratuit.",
+      "donate": "Faire un don",
+      "discover": "Découvrir nos actions"
+    },
     "main": {
       "mission": {
         "title": "Notre Mission",
