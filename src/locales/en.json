@@ -1,0 +1,307 @@
+{
+  "common": {
+    "header": {
+      "home": "Home",
+      "mission": "Our mission",
+      "projects": "Projects",
+      "contact": "Contact",
+      "donate": "Donate"
+    },
+    
+    "footer": {
+      "about": "About",
+      "home": "Home",
+      "our_mission": "Our mission",
+      "projects": "Projects",
+      "contact": "Contact",
+      "become_volunteer": "Become a volunteer",
+      "partnerships": "Partnerships",
+      "legacy": "Legacy and donations",
+      "follow_us": "Follow us",
+      "privacy_policy": "Privacy policy",
+      "legal_notice": "Legal notice",
+      "accessibility": "Accessibility",
+      "rights": "All rights reserved.",
+      "donate": "Donate"
+    },
+    "main": {
+      "footer": {
+        "slogan": "Mental health is a right. Everywhere."
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "title1": "Mental health is a right. Everywhere.",
+      "text1": "For over 20 years, we have supported those without access to psychological care.",
+      "title2": "Mental care is inaccessible for millions.",
+      "text2": "Cost, distance or stigma make mental health care out of reach. We go where no one else does.",
+      "title3": "We are here, with and for them.",
+      "text3": "Our psychologists deploy in emergencies or long-term to create a human, confidential and free space of care.",
+      "donate": "Donate",
+      "discover": "Discover our actions"
+    },
+    "main": {
+      "mission": {
+        "title": "Our Mission",
+        "p1": "At Brealth, our mission is to make mental health care accessible to everyone, everywhere in the world. We firmly believe that mental health is a fundamental right, regardless of geographic, economic, or social situation.",
+        "p2": "For over 20 years, our teams have worked tirelessly to provide psychological support to vulnerable and marginalized populations. We intervene in conflict zones, refugee camps, remote regions, and underserved neighborhoods where mental health services are limited or nonexistent.",
+        "cta": "Learn more about our approach"
+      },
+      "actions": {
+        "title": "Our Actions",
+        "intro": "Our work is based on three main pillars to ensure a lasting and meaningful impact:",
+        "card1": {
+          "title": "Emergency response",
+          "text": "Rapid deployment of psychologists to areas affected by natural disasters, conflicts, or humanitarian crises to provide immediate support."
+        },
+        "card2": {
+          "title": "Sustainable programs",
+          "text": "Establishment of permanent care centers and training of local professionals to ensure continuity of mental health services."
+        },
+        "card3": {
+          "title": "Awareness",
+          "text": "Information and education campaigns to combat the stigma of mental illness and promote the importance of psychological well-being."
+        },
+        "stats": "In 2024, our teams are active in 27 countries around the world and have supported more than 50,000 people toward better mental health.",
+        "cta": "Discover our projects"
+      },
+      "testimonials": {
+        "title": "Testimonials",
+        "t1": {
+          "text": "After the earthquake, I was completely lost. Brealth’s psychologists helped me regain a sense of safety and manage my trauma. Their presence was key to my recovery.",
+          "author": "- Maria, Nepal"
+        },
+        "t2": {
+          "text": "The Brealth center in our refugee camp is a peaceful haven where my children and I could talk about our experience. Thanks to their support, we regained hope despite our difficult situation.",
+          "author": "- Ahmed, Lebanon"
+        },
+        "t3": {
+          "text": "As a psychologist trained by Brealth, I now have the skills needed to help my own community. This knowledge transfer is invaluable to our remote region.",
+          "author": "- Fatima, Mali"
+        }
+      },
+      "help": {
+        "title": "Help Us",
+        "intro": "Your support is essential for us to continue and expand our work. There are several ways you can contribute to our mission:",
+        "item1": "Make a one-time or recurring donation",
+        "item2": "Become a volunteer or offer your professional services",
+        "item3": "Take part in our awareness events",
+        "item4": "Share our campaigns on social media",
+        "item5": "Organize a fundraiser in your company or community",
+        "conclusion": "Every contribution, whatever its form, makes a real difference in the lives of the people we support.",
+        "donate": "Donate",
+        "volunteer": "Become a volunteer"
+      },
+      "contact": {
+        "title": "Contact",
+        "intro": "Do you have questions or want to know more about our work? Feel free to contact us. Our team will be happy to respond.",
+        "headquarters": "Headquarters",
+        "address": "25 Rue de la Paix\n75002 Paris, France",
+        "phoneTitle": "Phone",
+        "phone": "+33 (0)1 45 67 89 10",
+        "emailTitle": "Email",
+        "email": "contact@brealth.org",
+        "form": {
+          "name": "Name",
+          "email": "Email",
+          "subject": "Subject",
+          "message": "Message",
+          "submit": "Send"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Do you have questions or want to know more about our work? Feel free to contact us. Our team will be happy to respond.",
+    "headquarters": "Headquarters",
+    "address": "25 Rue de la Paix\n75002 Paris, France",
+    "phoneTitle": "Phone",
+    "phone": "+33 (0)1 45 67 89 10",
+    "emailTitle": "Email",
+    "email": "contact@brealth.org",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "title": "Can I become a volunteer?",
+        "answer": "Absolutely! Visit our “Help Us” page to learn how you can contribute as a volunteer or professional."
+      },
+      "q2": {
+        "title": "Are donations tax-deductible?",
+        "answer": "Yes, in many countries your donation to Brealth can be deducted. Contact us for documentation."
+      },
+      "q3": {
+        "title": "Where does my money go?",
+        "answer": "Funds support field missions, local professional training, and free psychological care services."
+      }
+    }
+  },
+  "donation": {
+    "title": "Support our mission",
+    "intro": "Every donation helps us reach more people in need of mental health support. Choose how you'd like to contribute:",
+    "form": {
+      "amount": "Amount (€)",
+      "type": "Donation type",
+      "submit": "Donate now"
+    },
+    "types": {
+      "once": "one-time",
+      "monthly": "monthly"
+    },
+    "alert": "Thank you for your {type} donation of €{amount}! 💖",
+    "why": {
+      "title": "Why give to Brealth?",
+      "point1": "📍 We operate in over 6 countries",
+      "point2": "👩‍⚕️ 12 field psychologists worldwide",
+      "point3": "🧠 Mental health is a right, not a privilege"
+    }
+  },
+  "mission": {
+    "quote": {
+      "text": "“We don’t treat statistics. We listen to wounds no one else sees.”",
+      "author": "— Dr. Selma N’Diaye, Founding Member"
+    },
+    "intro": "Brealth was born to fill a silence. The one around mental health. Our story began where most others ended — with the invisible wounds of the mind.",
+    "timeline": {
+      "title": "A story of resilience. A mission of healing.",
+      "items": {
+        "2001": "USA: Brealth is born after 9/11",
+        "2005": "Nigeria: first mobile intervention",
+        "2020": "France: mental support during pandemic",
+        "2024": "Active in 6 countries with 12 psychologists"
+      }
+    },
+    "approach": {
+      "title": "How we help",
+      "intro": "Our mission relies on a structured and proven method focused on three pillars of intervention.",
+      "establish": {
+        "title": "Establish",
+        "text": "We set up permanent care centers in France and the United States, offering long-term psychological support."
+      },
+      "deploy": {
+        "title": "Deploy",
+        "text": "Our psychologists intervene rapidly in crisis zones or underserved areas to offer immediate relief and support."
+      },
+      "empower": {
+        "title": "Empower",
+        "text": "We train local professionals and build awareness to ensure continuity and fight the stigma around mental health."
+      },
+      "readMore": "Read more"
+    },
+    "testimony": {
+      "text": "“After 9/11, I saw what silence does. We created Brealth so it wouldn’t win.”",
+      "author": "— Founding Psychologist"
+    },
+    "team": {
+      "title": "Meet our founding team",
+      "intro": "Brealth was founded by a collective of passionate psychologists determined to bring mental health care where it’s most needed. Here are three of our core members:",
+      "members": {
+        "kylian": "Trauma specialist active in conflict zones and refugee camps.",
+        "noah": "Coordinator of sustainable programs in Latin America.",
+        "kenzo": "Expert in training and community empowerment in West Africa."
+      }
+    }
+  },
+  "projects": {
+    "title": "Our actions in the field",
+    "intro": "From urban centers to remote areas, Brealth acts where psychological support is missing. Our missions adapt to the local needs with urgency, care and dignity.",
+    "items": {
+      "nigeria": {
+        "country": "Nigeria",
+        "type": "Emergency",
+        "year": "2023",
+        "description": "Psychological support deployed after severe flooding in northern regions."
+      },
+      "brazil": {
+        "country": "Brazil",
+        "type": "Long-term",
+        "year": "2015–ongoing",
+        "description": "Established a permanent care center in São Paulo for underprivileged communities."
+      },
+      "france": {
+        "country": "France",
+        "type": "Awareness",
+        "year": "2022–2024",
+        "description": "Mental health workshops for youth in public schools post-pandemic."
+      },
+      "usa": {
+        "country": "USA",
+        "type": "Long-term",
+        "year": "2001–ongoing",
+        "description": "Headquarters in New York and support centers in urban zones."
+      },
+      "chile": {
+        "country": "Chile",
+        "type": "Emergency",
+        "year": "2020",
+        "description": "Rapid intervention after a major earthquake in the south."
+      },
+      "mali": {
+        "country": "Mali",
+        "type": "Empowerment",
+        "year": "2023",
+        "description": "Training of local psychological aid volunteers in rural areas."
+      }
+    }
+  },
+  "events": {
+    "title": "Upcoming Events",
+    "items": {
+      "paris": {
+        "title": "Mental Health Awareness Day – Paris",
+        "location": "France",
+        "description": "Workshops and public awareness actions in Parisian schools and universities.",
+        "action": "Volunteer"
+      },
+      "lebanon": {
+        "title": "Refugee Camp Support Mission – Lebanon",
+        "location": "Lebanon",
+        "description": "Deployment of temporary mental health units in Bekaa Valley.",
+        "action": "Join as Psychologist"
+      },
+      "global": {
+        "title": "Fundraiser – Online Global Stream",
+        "location": "Global",
+        "description": "Live event to raise funds for ongoing actions in South America and Africa.",
+        "action": "Donate"
+      }
+    }
+  },
+  "map": {
+    "title": "Where we act",
+    "markers": {
+      "nigeria": "Nigeria – Emergency mission (2023)",
+      "brazil": "Brazil – Long-term center (since 2015)",
+      "france": "France – Workshops & support (2022–2024)",
+      "usa": "USA – HQ & urban care (2001–ongoing)",
+      "lebanon": "Lebanon – Refugee camp mission (2025)",
+      "chile": "Chile – Earthquake response (2020)",
+      "mali": "Mali – Training & empowerment (2023)"
+    }
+  },
+  "testimonials": {
+    "title": "Voices from the field",
+    "items": {
+      "maria": {
+        "text": "After the earthquake, I was completely lost. Brealth’s psychologists helped me regain a sense of safety and manage my trauma. Their presence was key to my recovery.",
+        "author": "Maria, Nepal"
+      },
+      "ahmed": {
+        "text": "The Brealth center in our refugee camp is a peaceful haven. Thanks to their support, we regained hope despite our difficult situation.",
+        "author": "Ahmed, Lebanon"
+      },
+      "fatima": {
+        "text": "As a psychologist trained by Brealth, I now have the skills needed to help my own community. This knowledge transfer is invaluable to our region.",
+        "author": "Fatima, Mali"
+      }
+    }
+  }
+}

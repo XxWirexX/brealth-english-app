@@ -2,24 +2,30 @@
 
 import styles from './DonationPage.module.css';
 import { useState } from 'react';
+import useTranslation from '@/hooks/useTranslation';
 
 export default function DonationPage() {
   const [amount, setAmount] = useState('');
   const [type, setType] = useState('once');
+  const { t } = useTranslation();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(`Thank you for your ${type === 'monthly' ? 'monthly' : 'one-time'} donation of €${amount}! 💖`);
+    alert(
+      t('donation.alert')
+        .replace('{type}', t(`donation.types.${type}`))
+        .replace('{amount}', amount)
+    );
   };
 
   return (
     <section className={styles.donationSection}>
-      <h1 className={styles.title}>Support our mission</h1>
-      <p className={styles.intro}>Every donation helps us reach more people in need of mental health support. Choose how you'd like to contribute:</p>
+      <h1 className={styles.title}>{t('donation.title')}</h1>
+      <p className={styles.intro}>{t('donation.intro')}</p>
 
       <form className={styles.form} onSubmit={handleSubmit}>
         <label>
-          Amount (€)
+          {t('donation.form.amount')}
           <input
             type="number"
             min="1"
@@ -30,24 +36,24 @@ export default function DonationPage() {
         </label>
 
         <label>
-          Donation type
+          {t('donation.form.type')}
           <select value={type} onChange={(e) => setType(e.target.value)}>
-            <option value="once">One-time</option>
-            <option value="monthly">Monthly</option>
+            <option value="once">{t('donation.types.once')}</option>
+            <option value="monthly">{t('donation.types.monthly')}</option>
           </select>
         </label>
 
-        <button type="submit">Donate now</button>
+        <button type="submit">{t('donation.form.submit')}</button>
       </form>
 
       <div className={styles.info}>
-        <h2>Why give to Brealth?</h2>
+        <h2>{t('donation.why.title')}</h2>
         <ul>
-          <li>📍 We operate in over 6 countries</li>
-          <li>👩‍⚕️ 12 field psychologists worldwide</li>
-          <li>🧠 Mental health is a right, not a privilege</li>
+          <li>{t('donation.why.point1')}</li>
+          <li>{t('donation.why.point2')}</li>
+          <li>{t('donation.why.point3')}</li>
         </ul>
       </div>
     </section>
   );
-} 
+}

@@ -2,7 +2,7 @@
 
 import styles from './Main.module.css';
 import HeroSlider from './HeroSlider';
-import useTranslation from '../lib/useTranslation';
+import useTranslation from '../hooks/useTranslation';
 
 export default function Main() {
   const { t } = useTranslation();
@@ -14,56 +14,56 @@ export default function Main() {
       {/* Section Notre Mission */}
       <section id="mission" className={`${styles.section} ${styles.alt}`}>
         <div className={styles.container}>
-          <h2 className={styles.title}>{t('main.mission.title')}</h2>
-          <p className={styles.text}>{t('main.mission.p1')}</p>
-          <p className={styles.text}>{t('main.mission.p2')}</p>
-          <button className={styles.button}>{t('main.mission.cta')}</button>
+          <h2 className={styles.title}>{t('home.main.mission.title')}</h2>
+          <p className={styles.text}>{t('home.main.mission.p1')}</p>
+          <p className={styles.text}>{t('home.main.mission.p2')}</p>
+          <a href="mission" className={styles.button}>{t('home.main.mission.cta')}</a>
         </div>
       </section>
 
       {/* Section Nos Actions */}
       <section id="actions" className={styles.section}>
         <div className={styles.container}>
-          <h2 className={styles.title}>{t('main.actions.title')}</h2>
-          <p className={styles.text}>{t('main.actions.intro')}</p>
+          <h2 className={styles.title}>{t('home.main.actions.title')}</h2>
+          <p className={styles.text}>{t('home.main.actions.intro')}</p>
 
           <div className={styles.actionGrid}>
             <div className={styles.actionCard}>
-              <h3>{t('main.actions.card1.title')}</h3>
-              <p>{t('main.actions.card1.text')}</p>
+              <h3>{t('home.main.actions.card1.title')}</h3>
+              <p>{t('home.main.actions.card1.text')}</p>
             </div>
             <div className={styles.actionCard}>
-              <h3>{t('main.actions.card2.title')}</h3>
-              <p>{t('main.actions.card2.text')}</p>
+              <h3>{t('home.main.actions.card2.title')}</h3>
+              <p>{t('home.main.actions.card2.text')}</p>
             </div>
             <div className={styles.actionCard}>
-              <h3>{t('main.actions.card3.title')}</h3>
-              <p>{t('main.actions.card3.text')}</p>
+              <h3>{t('home.main.actions.card3.title')}</h3>
+              <p>{t('home.main.actions.card3.text')}</p>
             </div>
           </div>
 
-          <p className={styles.text}>{t('main.actions.stats')}</p>
-          <button className={styles.button}>{t('main.actions.cta')}</button>
+          <p className={styles.text}>{t('home.main.actions.stats')}</p>
+          <a href="mission" className={styles.button}>{t('home.main.projects.cta')}</a>
         </div>
       </section>
 
       {/* Section Témoignages */}
       <section className={`${styles.section} ${styles.alt}`}>
         <div className={styles.container}>
-          <h2 className={styles.title}>{t('main.testimonials.title')}</h2>
+          <h2 className={styles.title}>{t('home.main.testimonials.title')}</h2>
 
           <div className={styles.testimonialGrid}>
             <div className={styles.testimonial}>
-              <p>{t('main.testimonials.t1.text')}</p>
-              <span>{t('main.testimonials.t1.author')}</span>
+              <p>{t('home.main.testimonials.t1.text')}</p>
+              <span>{t('home.main.testimonials.t1.author')}</span>
             </div>
             <div className={styles.testimonial}>
-              <p>{t('main.testimonials.t2.text')}</p>
-              <span>{t('main.testimonials.t2.author')}</span>
+              <p>{t('home.main.testimonials.t2.text')}</p>
+              <span>{t('home.main.testimonials.t2.author')}</span>
             </div>
             <div className={styles.testimonial}>
-              <p>{t('main.testimonials.t3.text')}</p>
-              <span>{t('main.testimonials.t3.author')}</span>
+              <p>{t('home.main.testimonials.t3.text')}</p>
+              <span>{t('home.main.testimonials.t3.author')}</span>
             </div>
           </div>
         </div>
@@ -72,71 +72,23 @@ export default function Main() {
       {/* Section Nous Aider */}
       <section id="aider" className={styles.section}>
         <div className={styles.container}>
-          <h2 className={styles.title}>{t('main.help.title')}</h2>
-          <p className={styles.text}>{t('main.help.intro')}</p>
+          <h2 className={styles.title}>{t('home.main.help.title')}</h2>
+          <p className={styles.text}>{t('home.main.help.intro')}</p>
 
           <ul className={styles.list}>
-            <li>{t('main.help.item1')}</li>
-            <li>{t('main.help.item2')}</li>
-            <li>{t('main.help.item3')}</li>
-            <li>{t('main.help.item4')}</li>
-            <li>{t('main.help.item5')}</li>
+            <li>{t('home.main.help.item1')}</li>
+            <li>{t('home.main.help.item2')}</li>
+            <li>{t('home.main.help.item3')}</li>
+            <li>{t('home.main.help.item4')}</li>
+            <li>{t('home.main.help.item5')}</li>
           </ul>
 
-          <p className={styles.text}>{t('main.help.conclusion')}</p>
+          <p className={styles.text}>{t('home.main.help.conclusion')}</p>
 
           <div className={styles.donationButtons}>
-            <button className={styles.button}>{t('main.help.donate')}</button>
-            <button className={`${styles.button} ${styles.secondary}`}>{t('main.help.volunteer')}</button>
+            <a href="donate" className={styles.button}>{t('home.main.help.donate')}</a>
+            <button onClick={() => alert("12")} className={`${styles.button} ${styles.secondary}`}>{t('home.main.help.volunteer')}</button>
           </div>
-        </div>
-      </section>
-
-      {/* Section Contact */}
-      <section id="contact" className={`${styles.section} ${styles.alt}`}>
-        <div className={styles.container}>
-          <h2 className={styles.title}>{t('main.contact.title')}</h2>
-          <p className={styles.text}>{t('main.contact.intro')}</p>
-
-          <div className={styles.contactInfo}>
-            <div className={styles.contactItem}>
-              <h3>{t('main.contact.headquarters')}</h3>
-              <p>{t('main.contact.address')}</p>
-            </div>
-            <div className={styles.contactItem}>
-              <h3>{t('main.contact.phoneTitle')}</h3>
-              <p>{t('main.contact.phone')}</p>
-            </div>
-            <div className={styles.contactItem}>
-              <h3>{t('main.contact.emailTitle')}</h3>
-              <p>{t('main.contact.email')}</p>
-            </div>
-          </div>
-
-          <form className={styles.contactForm}>
-            <div className={styles.formRow}>
-              <div className={styles.formGroup}>
-                <label htmlFor="name">{t('main.contact.form.name')}</label>
-                <input type="text" id="name" name="name" required />
-              </div>
-              <div className={styles.formGroup}>
-                <label htmlFor="email">{t('main.contact.form.email')}</label>
-                <input type="email" id="email" name="email" required />
-              </div>
-            </div>
-
-            <div className={styles.formGroup}>
-              <label htmlFor="subject">{t('main.contact.form.subject')}</label>
-              <input type="text" id="subject" name="subject" required />
-            </div>
-
-            <div className={styles.formGroup}>
-              <label htmlFor="message">{t('main.contact.form.message')}</label>
-              <textarea id="message" name="message" rows="5" required></textarea>
-            </div>
-
-            <button type="submit" className={styles.button}>{t('main.contact.form.submit')}</button>
-          </form>
         </div>
       </section>
     </main>

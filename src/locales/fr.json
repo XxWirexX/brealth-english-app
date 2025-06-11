@@ -1,0 +1,308 @@
+{
+  "common": {
+    "header": {
+      "home": "Accueil",
+      "mission": "Nos missions",
+      "projects": "Projets",
+      "contact": "Contact",
+      "donate": "Faire un don"
+    },
+    "hero": {
+      "title1": "La santé mentale est un droit. Partout.",
+      "text1": "Depuis plus de 20 ans, nous accompagnons celles et ceux qui n’ont pas accès aux soins psychiques.",
+      "title2": "Des soins inaccessibles pour des millions de personnes.",
+      "text2": "Le coût, la distance ou la stigmatisation rendent les soins mentaux inaccessibles. Nous intervenons là où personne d’autre ne va.",
+      "title3": "Nous sommes là, avec et pour elles.",
+      "text3": "Nos psychologues s’installent en urgence ou à long terme pour créer un espace de soin humain, confidentiel et gratuit.",
+      "donate": "Faire un don",
+      "discover": "Découvrir nos actions"
+    },
+
+    "footer": {
+      "about": "À propos",
+      "home": "Accueil",
+      "our_mission": "Notre mission",
+      "projects": "Projets",
+      "our_team": "Notre équipe",
+      "contact": "Contact",
+      "become_volunteer": "Devenir bénévole",
+      "partnerships": "Partenariats",
+      "legacy": "Legs et donations",
+      "follow_us": "Suivez-nous",
+      "privacy_policy": "Politique de confidentialité",
+      "legal_notice": "Mentions légales",
+      "accessibility": "Accessibilité",
+      "rights": "Tous droits réservés.",
+      "donate": "Faire un don"
+    },
+    "main": {
+      "footer": {
+        "slogan": "La santé mentale est un droit. Partout."
+      }
+    }
+  },
+  "home": {
+    "main": {
+      "mission": {
+        "title": "Notre Mission",
+        "p1": "Chez Brealth, notre mission est de rendre accessible les soins de santé mentale à tous, partout dans le monde. Nous croyons fermement que la santé mentale est un droit fondamental, indépendamment de la situation géographique, économique ou sociale.",
+        "p2": "Depuis plus de 20 ans, nos équipes travaillent sans relâche pour apporter un soutien psychologique aux populations vulnérables et marginalisées. Nous intervenons dans les zones de conflit, les camps de réfugiés, les régions isolées et les quartiers défavorisés où l'accès aux soins mentaux est limité ou inexistant.",
+        "cta": "En savoir plus sur notre approche"
+      },
+      "actions": {
+        "title": "Nos Actions",
+        "intro": "Notre travail s'articule autour de trois axes principaux pour garantir un impact durable et significatif :",
+        "card1": {
+          "title": "Intervention d'urgence",
+          "text": "Déploiement rapide de psychologues dans les zones touchées par des catastrophes naturelles, des conflits ou des crises humanitaires pour offrir un soutien immédiat."
+        },
+        "card2": {
+          "title": "Programmes durables",
+          "text": "Mise en place de centres de soins permanents et formation de professionnels locaux pour assurer la continuité des services de santé mentale."
+        },
+        "card3": {
+          "title": "Sensibilisation",
+          "text": "Campagnes d'information et d'éducation pour lutter contre la stigmatisation liée aux troubles mentaux et promouvoir l'importance du bien-être psychologique."
+        },
+        "stats": "En 2024, nos équipes sont présentes dans 27 pays à travers le monde et ont accompagné plus de 50 000 personnes vers un mieux-être psychologique.",
+        "cta": "Découvrir nos projets"
+      },
+      "testimonials": {
+        "title": "Témoignages",
+        "t1": {
+          "text": "Après le tremblement de terre, j'étais complètement perdue. Les psychologues de Brealth m'ont aidée à retrouver un sentiment de sécurité et à gérer mon traumatisme. Leur présence a été déterminante dans ma reconstruction.",
+          "author": "- Maria, Népal"
+        },
+        "t2": {
+          "text": "Le centre Brealth dans notre camp de réfugiés est un havre de paix où mes enfants et moi avons pu parler de notre vécu. Grâce à leur soutien, nous avons retrouvé l'espoir malgré notre situation difficile.",
+          "author": "- Ahmed, Liban"
+        },
+        "t3": {
+          "text": "En tant que psychologue formée par Brealth, j'ai maintenant les compétences nécessaires pour aider ma propre communauté. Ce transfert de connaissances est inestimable pour notre région isolée.",
+          "author": "- Fatima, Mali"
+        }
+      },
+      "help": {
+        "title": "Nous Aider",
+        "intro": "Votre soutien est essentiel pour nous permettre de poursuivre et d'étendre notre action. Plusieurs façons de contribuer à notre mission s'offrent à vous :",
+        "item1": "Faire un don ponctuel ou régulier",
+        "item2": "Devenir bénévole ou proposer vos services professionnels",
+        "item3": "Participer à nos événements de sensibilisation",
+        "item4": "Relayer nos campagnes sur les réseaux sociaux",
+        "item5": "Organiser une collecte de fonds au sein de votre entreprise ou communauté",
+        "conclusion": "Chaque contribution, quelle que soit sa nature, fait une réelle différence dans la vie des personnes que nous accompagnons.",
+        "donate": "Faire un don",
+        "volunteer": "Devenir bénévole"
+      },
+      "contact": {
+        "title": "Contact",
+        "intro": "Vous avez des questions ou souhaitez en savoir plus sur nos actions ? N'hésitez pas à nous contacter. Notre équipe se fera un plaisir de vous répondre.",
+        "headquarters": "Siège social",
+        "address": "25 Rue de la Paix\n75002 Paris, France",
+        "phoneTitle": "Téléphone",
+        "phone": "+33 (0)1 45 67 89 10",
+        "emailTitle": "Email",
+        "email": "contact@brealth.org",
+        "form": {
+          "name": "Nom",
+          "email": "Email",
+          "subject": "Sujet",
+          "message": "Message",
+          "submit": "Envoyer"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Vous avez des questions ou souhaitez en savoir plus sur notre travail ? N’hésitez pas à nous contacter. Notre équipe se fera un plaisir de vous répondre.",
+    "headquarters": "Siège",
+    "address": "25 Rue de la Paix\n75002 Paris, France",
+    "phoneTitle": "Téléphone",
+    "phone": "+33 (0)1 45 67 89 10",
+    "emailTitle": "Email",
+    "email": "contact@brealth.org",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "subject": "Objet",
+      "message": "Message",
+      "submit": "Envoyer"
+    },
+    "faq": {
+      "title": "Foire aux questions",
+      "q1": {
+        "title": "Puis-je devenir bénévole ?",
+        "answer": "Absolument ! Consultez notre page « Nous aider » pour savoir comment contribuer en tant que bénévole ou professionnel."
+      },
+      "q2": {
+        "title": "Les dons sont-ils déductibles d’impôt ?",
+        "answer": "Oui, dans de nombreux pays votre don à Brealth est déductible. Contactez-nous pour obtenir les justificatifs."
+      },
+      "q3": {
+        "title": "Où va mon argent ?",
+        "answer": "Les fonds soutiennent les missions de terrain, la formation de professionnels locaux et l'accès gratuit à des soins psychologiques."
+      }
+    }
+  },
+  "donation": {
+    "title": "Soutenez notre mission",
+    "intro": "Chaque don nous aide à atteindre davantage de personnes ayant besoin de soutien psychologique. Choisissez comment vous souhaitez contribuer :",
+    "form": {
+      "amount": "Montant (€)",
+      "type": "Type de don",
+      "submit": "Faire un don"
+    },
+    "types": {
+      "once": "ponctuel",
+      "monthly": "mensuel"
+    },
+    "alert": "Merci pour votre don {type} de {amount} € ! 💖",
+    "why": {
+      "title": "Pourquoi soutenir Brealth ?",
+      "point1": "📍 Nous intervenons dans plus de 6 pays",
+      "point2": "👩‍⚕️ 12 psychologues de terrain à travers le monde",
+      "point3": "🧠 La santé mentale est un droit, pas un privilège"
+    }
+  },
+  "mission": {
+    "quote": {
+      "text": "« Nous ne soignons pas des statistiques. Nous écoutons des blessures que personne ne voit. »",
+      "author": "— Dr. Selma N’Diaye, Membre fondatrice"
+    },
+    "intro": "Brealth est né pour combler un silence. Celui autour de la santé mentale. Notre histoire a commencé là où tant d'autres s'arrêtent : avec les blessures invisibles de l'esprit.",
+    "timeline": {
+      "title": "Une histoire de résilience. Une mission de soin.",
+      "items": {
+        "2001": "États-Unis : naissance de Brealth après le 11 septembre",
+        "2005": "Nigéria : première intervention mobile",
+        "2020": "France : soutien mental pendant la pandémie",
+        "2024": "Présent dans 6 pays avec 12 psychologues"
+      }
+    },
+    "approach": {
+      "title": "Comment nous aidons",
+      "intro": "Notre mission repose sur une méthode structurée et éprouvée, centrée sur trois piliers d’intervention.",
+      "establish": {
+        "title": "Implanter",
+        "text": "Nous mettons en place des centres de soin permanents en France et aux États-Unis, pour un accompagnement psychologique durable."
+      },
+      "deploy": {
+        "title": "Déployer",
+        "text": "Nos psychologues interviennent rapidement dans les zones de crise ou délaissées pour un soutien immédiat."
+      },
+      "empower": {
+        "title": "Autonomiser",
+        "text": "Nous formons des professionnels locaux et menons des actions de sensibilisation pour garantir la continuité et lutter contre les stigmas."
+      },
+      "readMore": "En savoir plus"
+    },
+    "testimony": {
+      "text": "« Après le 11 septembre, j’ai vu ce que le silence fait. Nous avons créé Brealth pour qu’il ne gagne pas. »",
+      "author": "— Psychologue fondateur"
+    },
+    "team": {
+      "title": "Rencontrez notre équipe fondatrice",
+      "intro": "Brealth a été fondé par des psychologues passionnés, déterminés à apporter les soins psychologiques là où ils sont le plus nécessaires. Voici trois de ses membres clés :",
+      "members": {
+        "kylian": "Spécialiste des traumatismes, actif dans les zones de conflit et les camps de réfugiés.",
+        "noah": "Coordinateur de programmes durables en Amérique Latine.",
+        "kenzo": "Expert en formation et autonomisation des communautés en Afrique de l’Ouest."
+      }
+    }
+  },
+  "projects": {
+    "title": "Nos actions sur le terrain",
+    "intro": "Des centres urbains aux régions reculées, Brealth agit là où le soutien psychologique fait défaut. Nos missions s’adaptent aux besoins locaux avec urgence, soin et dignité.",
+    "items": {
+      "nigeria": {
+        "country": "Nigéria",
+        "type": "Urgence",
+        "year": "2023",
+        "description": "Soutien psychologique après de graves inondations dans le nord du pays."
+      },
+      "brazil": {
+        "country": "Brésil",
+        "type": "Long terme",
+        "year": "2015 – aujourd’hui",
+        "description": "Mise en place d’un centre de soins permanent à São Paulo pour les communautés défavorisées."
+      },
+      "france": {
+        "country": "France",
+        "type": "Sensibilisation",
+        "year": "2022 – 2024",
+        "description": "Ateliers de santé mentale pour les jeunes dans les écoles publiques après la pandémie."
+      },
+      "usa": {
+        "country": "États-Unis",
+        "type": "Long terme",
+        "year": "2001 – aujourd’hui",
+        "description": "Siège à New York et centres de soutien dans les zones urbaines."
+      },
+      "chile": {
+        "country": "Chili",
+        "type": "Urgence",
+        "year": "2020",
+        "description": "Intervention rapide après un séisme majeur dans le sud du pays."
+      },
+      "mali": {
+        "country": "Mali",
+        "type": "Autonomisation",
+        "year": "2023",
+        "description": "Formation de bénévoles locaux en soutien psychologique dans les zones rurales."
+      }
+    }
+  },
+  "events": {
+    "title": "Événements à venir",
+    "items": {
+      "paris": {
+        "title": "Journée de sensibilisation à la santé mentale – Paris",
+        "location": "France",
+        "description": "Ateliers et actions de sensibilisation dans les écoles et universités parisiennes.",
+        "action": "Devenir bénévole"
+      },
+      "lebanon": {
+        "title": "Mission de soutien en camp de réfugiés – Liban",
+        "location": "Liban",
+        "description": "Déploiement d’unités temporaires de soutien psychologique dans la vallée de la Bekaa.",
+        "action": "Rejoindre comme psychologue"
+      },
+      "global": {
+        "title": "Collecte de fonds – Diffusion mondiale en ligne",
+        "location": "Global",
+        "description": "Événement en direct pour soutenir les actions en Amérique du Sud et en Afrique.",
+        "action": "Faire un don"
+      }
+    }
+  },
+  "map": {
+    "title": "Où nous agissons",
+    "markers": {
+      "nigeria": "Nigéria – Mission d’urgence (2023)",
+      "brazil": "Brésil – Centre de soins à long terme (depuis 2015)",
+      "france": "France – Ateliers et soutien (2022–2024)",
+      "usa": "États-Unis – Siège & soins urbains (2001 – aujourd’hui)",
+      "lebanon": "Liban – Mission en camp de réfugiés (2025)",
+      "chile": "Chili – Intervention post-séisme (2020)",
+      "mali": "Mali – Formation et autonomisation (2023)"
+    }
+  },
+  "testimonials": {
+    "title": "Des voix du terrain",
+    "items": {
+      "maria": {
+        "text": "Après le séisme, j’étais complètement perdue. Les psychologues de Brealth m’ont aidée à retrouver un sentiment de sécurité et à gérer mon traumatisme. Leur présence a été essentielle à ma reconstruction.",
+        "author": "Maria, Népal"
+      },
+      "ahmed": {
+        "text": "Le centre Brealth dans notre camp de réfugiés est un havre de paix. Grâce à leur soutien, nous avons retrouvé l’espoir malgré notre situation difficile.",
+        "author": "Ahmed, Liban"
+      },
+      "fatima": {
+        "text": "En tant que psychologue formée par Brealth, j’ai désormais les compétences nécessaires pour aider ma propre communauté. Ce transfert de savoir est précieux pour notre région.",
+        "author": "Fatima, Mali"
+      }
+    }
+  }
+}

@@ -2,7 +2,7 @@
 
 import styles from './Header.module.css';
 import { useEffect, useState } from 'react';
-import useTranslation from '../lib/useTranslation';
+import useTranslation from '../hooks/useTranslation';
 import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Header({ scrollEffect = false }) {
@@ -71,19 +71,20 @@ export default function Header({ scrollEffect = false }) {
             </a>
           </li> */}
           {
-            navItems.map(item => (
-              <li className={styles['nav-item']}>
-              <a href={item == "home" ? "/" : item} className={styles['nav-link']}>
-                {t('header.' + item)}
-              </a>
-            </li>
+            navItems.map((item) => (
+              <li key={item} className={styles['nav-item']}>
+                <a href={item === "home" ? "/" : `/${item}`} className={styles['nav-link']}>
+                  {t(`common.header.${item}`)}
+                </a>
+              </li>
             ))
+
           }
         </ul>
       </nav>
 
       <div className={styles.rightSide}>
-        <a href="donation" className={styles['donation-btn']}>{t('header.donate')}</a>
+        <a href="donation" className={styles['donation-btn']}>{t('common.header.donate')}</a>
         <LanguageSwitcher />
       </div>
     </header>

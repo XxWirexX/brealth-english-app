@@ -2,25 +2,25 @@
 
 import { useEffect, useRef, useState } from 'react';
 import styles from './HeroSlider.module.css';
-import useTranslation from '../lib/useTranslation';
+import useTranslation from '../hooks/useTranslation';
 
 export default function HeroSlider() {
   const { t } = useTranslation();
 
   const slides = [
     {
-      title: t('hero.title1'),
-      text: t('hero.text1'),
+      title: t('home.hero.title1'),
+      text: t('home.hero.text1'),
       image: '/img/slide1.jpg',
     },
     {
-      title: t('hero.title2'),
-      text: t('hero.text2'),
+      title: t('home.hero.title2'),
+      text: t('home.hero.text2'),
       image: '/img/slide2.jpg',
     },
     {
-      title: t('hero.title3'),
-      text: t('hero.text3'),
+      title: t('home.hero.title3'),
+      text: t('home.hero.text3'),
       image: '/img/slide3.jpg',
     },
   ];
@@ -66,8 +66,8 @@ export default function HeroSlider() {
               <h2>{slide.title}</h2>
               <p>{slide.text}</p>
               <div className={styles.buttons}>
-                <button className={styles.primary}>{t('hero.donate')}</button>
-                <button className={styles.secondary}>{t('hero.discover')}</button>
+                <button onClick={() => window.location.href="/donation"} className={styles.primary}>{t('home.hero.donate')}</button>
+                <button onClick={() => window.location.href="/projects"} className={styles.secondary}>{t('home.hero.discover')}</button>
               </div>
             </div>
           ))}

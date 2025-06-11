@@ -86,6 +86,7 @@
     color: #2b2b2b;
     border: 3px solid var(--primary);
     border-radius: 30px;
+    text-decoration: none;
     cursor: pointer;
     transition: 0.3s ease;
     animation: fadeDown 0.6s ease forwards;

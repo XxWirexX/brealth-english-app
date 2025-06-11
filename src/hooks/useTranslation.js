@@ -1,12 +1,12 @@
-import { useRouter } from 'next/router';
-import { useEffect, useState } from 'react';
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
 export default function useTranslation() {
   const { locale } = useRouter();
   const [messages, setMessages] = useState({});
 
   useEffect(() => {
-    import(`../locales/${locale}/common.json`)
+    import(`../locales/${locale}.json`)
       .then((mod) => setMessages(mod))
       .catch(() => setMessages({}));
   }, [locale]);
